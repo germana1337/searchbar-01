@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #results div {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 3/2;
+
+    margin: 10px;
+  }
+  #results img {
+    width: 100%;
+    aspect-ratio: 3/3;
+    object-fit: cover;
+  }
+  #search-input {
+    width: 100px;
+  }
+  #search-button {
+    width: 100px;
+  }
+  form {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
